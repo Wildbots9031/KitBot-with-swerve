@@ -56,8 +56,18 @@ public final class Constants {
     public static final int kFrontRightTurningCanId = 19;
     public static final int kRearRightTurningCanId = 11;
 
+  
+
     public static final boolean kGyroReversed = false;
   }
+
+  public static final class RollerConstants {
+    public static final int ROLLER_MOTOR_ID = 1;
+    public static final int ROLLER_MOTOR_CURRENT_LIMIT = 60;
+    public static final double ROLLER_MOTOR_VOLTAGE_COMP = 10;
+    public static final double ROLLER_EJECT_VALUE = 0.44;
+  }
+
 
   public static final class ModuleConstants {
     // The MAXSwerve module can be configured with one of three pinion gears: 12T,
@@ -78,6 +88,7 @@ public final class Constants {
 
   public static final class OIConstants {
     public static final int kDriverControllerPort = 0;
+    public static final int kOperatorControllerPort = 1;
     public static final double kDriveDeadband = 0.05;
   }
 
